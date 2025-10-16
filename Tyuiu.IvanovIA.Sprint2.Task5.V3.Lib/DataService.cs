@@ -9,25 +9,25 @@ namespace Tyuiu.IvanovIA.Sprint2.Task5.V3.Lib
             switch (value) 
             {
                 case 1:
-                    res = "Понедельник";
+                    res = "понедельник";
                     break;
                 case 2:
-                    res = "Вторник";
+                    res = "вторник";
                     break;
                 case 3:
-                    res = "Среда";
+                    res = "среда";
                     break;
                 case 4:
-                    res = "Четверг";
+                    res = "четверг";
                     break;
                 case 5:
-                    res = "Пятница";
+                    res = "пятница";
                     break;
                 case 6:
-                    res = "Суббота";
+                    res = "суббота";
                     break;
                 case 7: 
-                    res = "Воскресенье";
+                    res = "воскресенье";
                     break;
                 default:
                     throw new ArgumentException($"День недели должен быть от 1 до 7. Значение {value}");

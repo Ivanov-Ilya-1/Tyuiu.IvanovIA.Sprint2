@@ -8,13 +8,13 @@ namespace Tyuiu.IvanovIA.Sprint2.Task5.V3.Test
         public void ValidFindDayName()
         {
             DataService ds = new DataService();
-            Assert.AreEqual("Понедельник", ds.FindDayName(1));
-            Assert.AreEqual("Вторник", ds.FindDayName(2));
-            Assert.AreEqual("Среда", ds.FindDayName(3));
-            Assert.AreEqual("Четверг", ds.FindDayName(4));
-            Assert.AreEqual("Пятница", ds.FindDayName(5));
-            Assert.AreEqual("Суббота", ds.FindDayName(6));
-            Assert.AreEqual("Воскресенье", ds.FindDayName(7));
+            Assert.AreEqual("понедельник", ds.FindDayName(1));
+            Assert.AreEqual("вторник", ds.FindDayName(2));
+            Assert.AreEqual("среда", ds.FindDayName(3));
+            Assert.AreEqual("четверг", ds.FindDayName(4));
+            Assert.AreEqual("пятница", ds.FindDayName(5));
+            Assert.AreEqual("суббота", ds.FindDayName(6));
+            Assert.AreEqual("воскресенье", ds.FindDayName(7));
 
             Assert.ThrowsException<ArgumentException>(() => 
             { 
